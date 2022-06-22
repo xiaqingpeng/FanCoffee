@@ -10,6 +10,7 @@ import 'package:flutter_luckin_coffee/utils/global.dart';
 import 'goods_list_row.dart';
 import 'widgets/classify_desc.dart';
 
+// ignore: todo
 /// TODO: 待解决：点击左侧菜单，右侧商品列表跳转
 class Menu extends StatefulWidget {
   static _MenuState _menuState;

@@ -176,6 +176,7 @@ class _LoginMailState extends State<LoginMail> {
           onPressed: () {
             if (countDownTime > 0) return;
 
+            // ignore: hack
             /// HACK: 获取验证码
           }),
     );

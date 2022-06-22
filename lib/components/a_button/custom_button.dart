@@ -31,7 +31,6 @@ class CustomButton {
 
   Widget widget;
 
-  static Color _bgColor;
   static Color _color;
   static Color _borderColor;
 
@@ -114,8 +113,8 @@ class CustomButton {
     return Container(
       width: width,
       height: height,
-      child: FlatButton(
-        padding: padding == null ? EdgeInsets.all(0) : padding,
+      child: FloatingActionButton(
+        // padding: padding == null ? EdgeInsets.all(0) : padding,
         shape: RoundedRectangleBorder(
             borderRadius:
                 borderRadius == null ? BorderRadius.circular(4) : borderRadius,
@@ -123,11 +122,11 @@ class CustomButton {
                 width: 1, color: !plain ? Colors.transparent : _borderColor)),
         materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
         child: child,
-        textColor: _color,
-        color: _bgColor,
+        // textColor: _color,
+        // color: _bgColor,
         splashColor: onPressed == null ? Colors.transparent : null,
-        highlightColor: onPressed == null ? Colors.transparent : null,
-        disabledColor: _bgColor,
+        // highlightColor: onPressed == null ? Colors.transparent : null,
+        // disabledColor: _bgColor,
         onPressed: onPressed == null ? () {} : onPressed,
       ),
     );
@@ -192,10 +191,8 @@ class CustomButton {
             onPressed == null ? $borderColor.withOpacity(.5) : $borderColor;
       }
 
-      _bgColor = bgColor ?? Color(0xfffff);
     } else {
       _color = onPressed == null ? $color.withOpacity(.5) : $color;
-      _bgColor = onPressed == null ? $bgColor.withOpacity(.5) : $bgColor;
       _borderColor =
           onPressed == null ? $borderColor.withOpacity(.5) : $borderColor;
     }

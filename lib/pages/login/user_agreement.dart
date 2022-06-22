@@ -19,7 +19,7 @@ class UserAgreement extends StatelessWidget {
                 '''尊敬的客户，在您下载luckin coffee程序( 下称“APP")
 使用我们的服务前，请仔细阅读本用户协议。
 用户协议
-本协议是您与瑞幸咖啡(北京)有限公司(以下简称“瑞
+本协议是您与FanCoffee(北京)有限公司(以下简称“瑞
 幸咖啡”)签署的《用户协议》。您下载本APP并成功注
 册后，即被视为已阅读、理解、接受本协议条款。本协
 议可由我们不时作出修订，且构成您与我们之间达成的有
@@ -57,14 +57,14 @@ class UserAgreement extends StatelessWidget {
 运营相关的微信订阅号和/或客户端消息和/或电子邮件和/
 或短消息。
 2.4.注册成功后，您有权根据APP相关页面公示的服务规
-称“瑞幸咖啡标志"。与 APP相关的其他商标、服务标
+称“FanCoffee标志"。与 APP相关的其他商标、服务标
 志、图像和标识为其各自所有人的商标(统称“第三方标
 志")
-未经瑞幸咖啡或相关商标持有人的事先书面许
-可，用户不得全部或部分地复制、模仿或使用瑞幸咖啡标
+未经FanCoffee或相关商标持有人的事先书面许
+可，用户不得全部或部分地复制、模仿或使用FanCoffee标
 志或第三方标志。APP和内容受到与著作权、商标、专
 利、商业秘密及其他专有权利相关的国际条约、法律、法
-规、行政规章等规定的保护，您可在瑞幸咖啡或内容所有
+规、行政规章等规定的保护，您可在FanCoffee或内容所有
 人授权的情况下使用包含保护数字信息的安全组件。
 6.合约期限及变更、终止
 6.1我们和您订立的这份协议是无固定期限协议。
@@ -77,7 +77,7 @@ class UserAgreement extends StatelessWidget {
 7.1本用户协议部分条款或附件无效或终止的，我们有权
 根据具体情况选择是否继续履行其他条款。
 7.2本协议适用中国法律。本协议履行中发生的任何争
-议，由瑞幸咖啡所在地人民法院管辖。''',
+议，由FanCoffee所在地人民法院管辖。''',
                 style: TextStyle(
                     color: Color.fromRGBO(56, 56, 56, 1),
                     fontSize: 14,
@@ -89,7 +89,7 @@ class UserAgreement extends StatelessWidget {
                   children: <Widget>[
                     Expanded(
                       child: Text(
-                        '瑞幸咖啡(北京)有限公司',
+                        'FanCoffee(北京)有限公司',
                         style: TextStyle(
                             fontSize: 14, color: Color.fromRGBO(56, 56, 56, 1)),
                         textAlign: TextAlign.right,

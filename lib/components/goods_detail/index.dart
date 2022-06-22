@@ -112,7 +112,7 @@ class _GoodsDetailDialogState extends State<GoodsDetailDialog> {
                 child: Container(
                   margin: EdgeInsets.only(top: 8),
                   child: Text(
-                    "flutter luckin coffee application（仿瑞幸咖啡）",
+                    "flutter luckin coffee application（FanCoffee）",
                     style: TextStyle(
                       fontSize: 12,
                       color: Color.fromRGBO(128, 128, 128, 1),
@@ -230,6 +230,7 @@ class _GoodsDetailDialogState extends State<GoodsDetailDialog> {
               style: TextStyle(fontSize: 12),
             ),
             onPressed: () async {
+              // ignore: hack
               /// HACK: 加入购物车
             },
           )

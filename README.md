@@ -2,7 +2,7 @@
 
 # flutter_luckin_coffee 2.0
 
-> flutter luckin coffee application（仿瑞幸咖啡）
+> flutter luckin coffee application（FanCoffee）
 
 老版本使用 `api工厂` 的分支 [v1.0](https://gitee.com/meetqy/flutter_luckin_coffee/tree/v1.0/),如果有之前克隆过数据的同学,可以评论区留言或私信我**你的 ID**
 

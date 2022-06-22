@@ -17,6 +17,7 @@ import 'package:flutter_luckin_coffee/pages/toolbar/index.dart';
 class LuckinRouter {
   //路由的总入口
   static final _routes = {
+    // ignore: todo
     /// TODO: 从非toolbar页面跳转到toolbar页面的入场动画不一致
     // 从非toolbar页面（子页面）跳转到toolbar页面（主页）实现：
     // pushName到对应的路由，因为Toolbar是单例模式，所以只会创建一个
