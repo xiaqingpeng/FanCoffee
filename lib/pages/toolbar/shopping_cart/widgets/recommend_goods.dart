@@ -17,6 +17,11 @@ class RecommendGoods extends StatelessWidget {
         width: 108,
         height: 108,
         fit: BoxFit.cover,
+        errorBuilder: (ctx, err, stackTrace) => Image.asset(
+          'lib/assets/images/logo1.png', //默认显示图片
+          width: 70,
+          height: 70,
+        ),
       ),
     );
   }

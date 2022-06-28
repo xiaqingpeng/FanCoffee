@@ -190,13 +190,14 @@ class _GoodsDetailDialogState extends State<GoodsDetailDialog> {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           AButton.icon(
+             width: 90,
             icon: Icon(
               Icons.card_giftcard_outlined,
-              size: 14,
+              size: 12,
             ),
             textChild: Text(
               '充2赠1',
-              style: TextStyle(fontSize: 12),
+              style: TextStyle(fontSize: 10),
             ),
             color: Colors.white,
             bgColor: Color.fromRGBO(255, 129, 2, 1),
@@ -204,30 +205,32 @@ class _GoodsDetailDialogState extends State<GoodsDetailDialog> {
             onPressed: () => {},
           ),
           AButton.icon(
+            width: 90,
             height: 32,
             icon: Icon(
               Icons.favorite_border,
-              size: 16,
+              size: 12,
             ),
             textChild: Text(
               '收藏口味',
-              style: TextStyle(fontSize: 12),
+              style: TextStyle(fontSize: 10),
             ),
             color: Color.fromRGBO(136, 175, 213, 1),
             bgColor: Color.fromRGBO(136, 175, 213, 0.3),
             onPressed: () => {},
           ),
           AButton.icon(
+            width: 90,
             height: 32,
             icon: Icon(
               Icons.shopping_cart,
-              size: 16,
+              size: 12,
             ),
             bgColor: Color.fromRGBO(136, 175, 213, 1),
             color: Colors.white,
             textChild: Text(
               '加入购物车',
-              style: TextStyle(fontSize: 12),
+              style: TextStyle(fontSize: 10),
             ),
             onPressed: () async {
               // ignore: hack

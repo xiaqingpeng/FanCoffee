@@ -57,7 +57,7 @@ class OrderListRow extends StatelessWidget {
           plain: true,
           height: 28,
           width: 74,
-          borderColor: Color.fromRGBO(242, 242, 242, 1),
+          // borderColor: Color.fromRGBO(242, 242, 242, 1),
           onPressed: () => {}),
     );
 
@@ -68,8 +68,8 @@ class OrderListRow extends StatelessWidget {
             '去支付',
             style: TextStyle(fontSize: 12),
           ),
-          color: Color.fromRGBO(255, 129, 2, 1),
-          borderColor: Color.fromRGBO(255, 129, 2, 1),
+          // color: Color.fromRGBO(255, 129, 2, 1),
+          // borderColor: Color.fromRGBO(255, 129, 2, 1),
           plain: true,
           height: 28,
           width: 74,

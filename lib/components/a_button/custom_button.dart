@@ -190,7 +190,6 @@ class CustomButton {
         _borderColor =
             onPressed == null ? $borderColor.withOpacity(.5) : $borderColor;
       }
-
     } else {
       _color = onPressed == null ? $color.withOpacity(.5) : $color;
       _borderColor =

@@ -21,6 +21,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       navigatorKey: G.navigatorKey,
       title: 'Flutter Luckin Coffee',
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       onGenerateRoute: router.getRoutes,
     );
